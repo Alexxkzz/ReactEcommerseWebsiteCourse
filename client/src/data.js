@@ -23,6 +23,52 @@ import skinCare from "./assets/skincareCategory.jpg";
 import fragrances from "./assets/fragrancesCategory.jpg";
 import laptops from "./assets/laptopsCategory.jpg";
 
+
+export const DataOfButton=[
+    {
+        text:"ButtonOne",
+        backgroundColor:"Red",
+        color:"Green"
+    },
+    {
+        text:"ButtonTwo",
+        backgroundColor:"Green",
+        color:"White"
+    },
+    {
+        text:"ButtonThree",
+        backgroundColor:"Yellow",
+        color:"Red"
+    }
+]
+
+export const navData=[
+    {
+        text:"Home",
+        icon:<HomeIcon/>
+    },
+    {
+        text:"Products",
+        icon:<CategoryIcon/>
+    },
+    {
+        text:"About",
+        icon:<InfoIcon/>
+    },
+    {
+        text:"Contact",
+        icon:<CallIcon/>
+    },
+    {
+        text:"FAQ",
+        icon:<HelpIcon/>
+    },
+    {
+        text:"Policy",
+        icon:<PolicyIcon/>
+    },
+]
+
 export const sliderData = [
   {
     image: `${sliderOne}`,
